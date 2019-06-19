@@ -1,0 +1,26 @@
+ <!--miniprogram/pages/dengl/dengl.wxml-->
+<view>
+
+<van-cell-group>
+  <van-field
+    value="{{ username }}"
+    required
+    clearable
+   bindinput ="userNameInput"
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名"
+  />
+  <van-field
+    value="{{ password }}"
+    type="password"
+    label="密码"
+       bindinput ="passwd"
+    placeholder="请输入密码"
+    required
+    border="{{ false }}"
+  />
+  <van-button size="large"  type="primary" bindtap='loginBtnClick'>登陆</van-button>
+</van-cell-group>
+
+</view>

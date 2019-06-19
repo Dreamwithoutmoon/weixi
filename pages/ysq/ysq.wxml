@@ -1,0 +1,41 @@
+<view class="container">
+  <view class="item-content">
+    <view class="box">
+      <view class="item" wx:for="{{items}}" wx:key="{{item.id}}">
+        <image src="https://ss2.bdstatic.com/8_V1bjqh_Q23odCf/pacific/1889419027.jpg"></image>
+        <text class="title">{{item.title}}</text><van-tag plain type="danger">标签</van-tag>
+<van-tag plain type="primary">标签</van-tag>
+        <text class="price">￥ {{item.price}} 元</text>
+        
+        <view class="opera">
+        
+          <text class="btn" bindtap="add" data-id="{{item.id}}" data-index="{{index}}">+</text>
+          <text class="num">{{item.num}}</text>
+          <text class="btn" bindtap="del" data-id="{{item.id}}" data-index="{{index}}">-</text>
+        </view>
+      </view>
+    </view>
+      <van-submit-bar
+  price="{{orderCount.money*100}}"
+  button-text="提交订单"
+  bind:submit="pay"
+  tip="{{ true }}"
+>
+  <van-tag type="primary">{{orderCount.num}}件</van-tag>
+  <view slot="tip">
+    您的收货地址不支持同城送, <text>修改地址</text>
+  </view>
+</van-submit-bar>
+  </view>
+  <view class="bottom-bar">
+    <view class="count">
+        共 <text class="num">{{orderCount.num}} 件</text>     
+        合计 <text class="num">{{orderCount.money}} 元</text> 
+    </view>
+    <view class="btn">
+        <text bindtap='pay'>结账</text>
+    </view>
+  </view>
+
+  
+</view>

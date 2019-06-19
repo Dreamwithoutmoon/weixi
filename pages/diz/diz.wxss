@@ -1,0 +1,135 @@
+/* miniprogram/pages/diz/diz.wxss */
+
+    h1{
+        margin: 0;
+        font-weight:400;
+    }
+    p{
+        margin: 0
+    }
+    /* 头部 */
+    .top{
+        background-color: #673ab7;/*更换背景图*/
+        height:7rem;
+        color: #eae4ef;
+        display: flex;
+        padding: 0 1.5rem 0 1rem; 
+        justify-content: space-between;
+    }
+    .top_h1{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    .top_p1{
+        color: #d5cddf;
+        font-size: .7rem;
+        margin-top: .3rem;
+    }
+    .top_p2{
+        margin-top: 2.5rem;
+        font-size: .9rem;
+    }
+    .tp2{
+        width: 30px;
+        height: 35px;
+        background-color:red;
+    }
+   
+
+
+
+
+    .p{
+        margin: .5rem 0 0 0;
+    }
+
+    .main{
+        margin-top: -1.2rem;
+        background-color:#ffffff ;
+        border-radius: .8rem  .8rem 0 0;
+    }
+    .list{
+        display: flex;
+        border-bottom: 1px solid #efefef;
+        padding: 1rem;
+    }
+    .list_r{
+
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        margin-left:1.1rem; 
+    }
+    .pl{
+      margin-left: 89px;
+      margin-top: -30px;
+       display: flex;
+    }
+    .list_img{
+         width: 30%;
+        height: 4.75rem;
+        background: #eee;
+    }
+    .list_p{
+        font-size: .8rem;
+        color:#9c8abe;
+        
+    }
+    .list_p2{
+        font-size: .5rem;
+        color: #bcbcbc;
+    }
+    .list_h3{
+        margin: 0;
+        font-size: 0.8rem;
+        color: #666666;
+    }
+    .aad{
+margin-top: 5px;
+    }
+
+    .list_duiHuan{
+        font-size: .6rem;
+        color: #816ca5;
+        width: 4.4rem;
+        height: 1.4rem;
+        border: 1px solid #816ca5;
+        border-radius: 1rem;
+        text-align: center;
+        line-height: 1.4rem ;
+        margin-top: 1.5rem;
+    }
+    .list_duiHuanwc{
+        font-size: .6rem;
+        color: #cac6c6;
+        width: 4.4rem;
+        height: 1.4rem;
+        border: 1px solid #dfdcdc;
+        border-radius: 1rem;
+        text-align: center;
+        line-height: 1.4rem ;
+        margin-top: 1.5rem;
+        
+    }
+    .db{z-index: 100;
+        bottom:0px;
+        position: fixed;
+        display: flex;
+        width:  100%;
+        text-align: center;
+       justify-content: space-between; 
+   
+    }
+    .db>div{
+        padding-top: 10px;
+        text-align: center;
+        width:20%;
+        height:40px;
+        border:1px solid #816ca5;
+        padding-bottom: 5px;
+    }
+    .jz{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }

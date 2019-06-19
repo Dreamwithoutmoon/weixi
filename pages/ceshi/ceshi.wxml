@@ -1,0 +1,76 @@
+<!--pages/ceshi/ceshi.wxml-->
+
+<view>
+<van-search   class="ssl" value="{{ value }}" placeholder="请输入搜索关键词" />
+ <swiper  class="ss"  indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
+         <block wx:for="{{imgUrls}}" wx:key='index'>  
+           <swiper-item>  
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+               <image src="{{item.url}}" class="slide-image" />  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+ </swiper>  
+<van-row class="zytpf">
+  <van-col span="5">
+  <view class='zytp' style=' margin-left: 30px'> 
+   <image class='tp' src='http://img.weiye.me/zcimgdir/album/file_591031e24a7b1.png'></image>
+  <text class='tbwz'>主食</text>
+  </view>
+  </van-col>
+   <van-col span="5">
+  <view class='zytp' style=' margin-left: 40px'> 
+   <image class='tp' src='http://img.weiye.me/zcimgdir/album/file_59103615d2052.png'></image>
+  <text   class='tbwz'>快餐</text>
+  </view>
+  </van-col>
+    <van-col span="5">
+  <view class='zytp' style=' margin-left: 50px'> 
+   <image class='tp' src='http://img.weiye.me/zcimgdir/album/file_59112b612dad7.png'></image>
+  <text  class='tbwz'>早餐</text>
+  </view>
+  </van-col>
+    <van-col span="5">
+  <view class='zytp' style=' margin-left: 60px'> 
+   <image class='tp' src='http://img.weiye.me/zcimgdir/album/file_5911316bc03ea.png'></image>
+  <text  class='tbwz'>下午茶</text>
+  </view>
+  </van-col>
+</van-row>
+<van-row>
+  <van-col span="16">
+
+  </van-col>
+  <van-col span="8">
+  </van-col>
+</van-row>
+<view class='df'>
+<view class='zb'>
+  <view class='jgg'>
+  <text class='wz1'>你下单我买单</text>
+  <view class="wz2" >更多惊喜等你拿</view>
+  <image  class='tp2' src='http://img.weiye.me/zcimgdir/album/file_59104409abcda.png'></image>
+</view>   
+</view>
+<view class='yb'>
+  <view class='jgg2'>
+  <view class='zjj'>
+  <text class='wz3'>走进美食</text>
+  <view  class='wz4'>更懂美食</view>
+  </view>
+  <view class='zjj'>  <image  class='tp3' src='http://img.weiye.me/zcimgdir/album/file_5910440c43e5b.png'></image></view>
+</view>
+  <view class='jgg2'>
+  <view class='zjj'>
+  <text class='wz5'>你任性你吃</text>
+  <view  class='wz4'>好吃到停不下</view>
+  </view>
+  <view class='zjj'>  <image  class='tp3' src='http://img.weiye.me/zcimgdir/album/file_591044112077c.png'></image></view>
+</view>
+</view>
+</view>
+<view class='zygg'><image class='tp4' src='http://img.weiye.me/zcimgdir/album/file_5912b685a92d2.png'></image></view>
+
+
+</view>

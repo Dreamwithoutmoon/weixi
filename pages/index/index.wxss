@@ -1,0 +1,161 @@
+/* miniprogram/pages/index/index.wxss */
+/* pages/ceshi/ceshi.wxss */
+.ad{
+  display: flex;
+  background-color: #6666;
+  text-align: center;
+
+}
+.adl{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+.u-wrp-bnr {
+  width: 100%;
+  height: 400rpx;
+  display: block;
+  position: relative;
+  top: 100rpx;
+  background: #f0f0f0;
+}
+.u-img-slide {
+  width: 100%;
+  height: inherit;
+}
+.slide-image{
+  width: 100%;
+}
+
+.ssl{
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+
+}
+.ss{
+  z-index: 10;
+   position: absolute;
+  width: 100%;
+  height: 160px;
+
+}
+
+.zytp{
+  margin-top: 130px
+
+}
+.van-search{ border-radius: 20%;
+ background-color: transparent!important;
+}
+.van-search__content{
+      opacity: 0.8;
+
+  border-radius: 20px!important;
+
+}
+.zytp{
+  text-align: center;
+  width: 58px;
+  height: 58px;
+}
+.tp{margin-top: 10px;
+  padding-top: 10px;
+  width: 80%;
+  height: 80%
+}
+.zytpf{
+  padding-left: 20px;
+  margin-left: 10px
+}
+.tbwz{
+  font-size: 15px
+}
+.ssp{
+  margin-top:1rem;
+  height: 120px
+
+
+
+}
+.slide-image1{
+  height:100%;
+}
+.jgg{
+  background-color: #fff;
+padding-top: 10px;
+  text-align: center;
+  border:1px solid rgba(199, 194, 194, 0.281);
+  width: 100%;
+  height: 160px;
+}
+.jgg2{
+  padding-left: 2px;
+  padding-top: 10px;
+ background-color: #fff;
+  display: flex;
+  text-align: center;
+  border:1px solid rgba(199, 194, 194, 0.281);
+  width: 100%;
+  height: 74px;
+}
+.tp2{margin-top: 10px;
+    width: 60%;
+  height: 60%
+}
+.df{margin-top: 1rem;
+  display: flex;
+  height: 172px;
+}
+.dff{
+  display: flex;
+}
+.zb{
+  width: 42%;
+  
+}
+.yb{
+  width: 58%;
+
+}
+.zjj{
+  width: 50%
+}
+.wz1{
+  font-weight:bold;
+  padding-top: 10px;
+      color: rgb(155, 222, 86);
+      font-size: 18px;
+}
+.wz2{
+  
+  padding-top: 2px;
+      color: rgb(102, 102, 102);
+    font-size: 14px
+}
+.wz3{
+    font-weight:bold;
+      color: rgb(250, 112, 112);
+    font-size: 18px;
+}
+.wz4{margin-top: 5px;
+      color: rgb(102, 102, 102);
+    font-size: 15px;
+}
+.wz5{
+    font-weight:bold;
+  color: rgb(89, 206, 219);
+    font-size: 18px;
+}
+.tp3{margin-top: 5px;
+    width: 70%;
+  height: 80%
+}
+.zygg{
+  width: 100%;
+  height: 86px;
+}
+.tp4{
+  width: 100%;
+  height: 100%
+}

@@ -1,0 +1,47 @@
+<!--miniprogram/pages/spxq/spxq.wxml-->
+
+
+<view>
+<van-toast id="van-toast" />
+<van-tabs swipeable color='#07c160'>
+  <van-tab title="美食">
+  <van-card wx:for="{{list}}" wx:key='index'
+  title-class="spwz"
+ thumb-class='sp'
+ price-class='jgg'
+  tag="推荐"
+  price="{{ item.ms }}     3.8km"
+  desc="月销7676单，精品商家推荐"
+  title="{{item.name}}"
+  thumb="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3776742502,294405296&fm=58&bpow=1024&bpoh=1024"
+  tags="asd"
+>
+<view slot="bottom"  class='mtl'>
+<van-tag size='medium' color="#f2826a" plain>急速</van-tag>
+<van-tag  size='medium'  color="#f2826a" plain>精品</van-tag>
+<van-tag  size='medium'  color="#f2826a" plain>好吃</van-tag>
+<van-tag  size='medium'   color="#f2826a" plain>推荐</van-tag>
+  </view>
+  <view slot="footer" >
+    <van-button size="small" type="primary" data-spid='{{item.spid}}' bindtap='jr'>进入商家</van-button>
+  </view>
+</van-card>
+  
+  </van-tab>
+  <van-tab title="奶茶">奶茶</van-tab>
+  <van-tab title="奶茶">奶茶</van-tab>
+  <van-tab title="标签 4">内容 4</van-tab>
+</van-tabs>
+<van-tabbar
+  active="{{ active }}"
+  active-color="#07c160"
+  bind:change="onChange"
+>
+  <van-tabbar-item icon="home-o">主页</van-tabbar-item>
+  <van-tabbar-item icon="shopping-cart-o">点餐</van-tabbar-item>
+  <van-tabbar-item icon="balance-pay">订单</van-tabbar-item>
+  <van-tabbar-item icon="friends-o">用户</van-tabbar-item>
+</van-tabbar>
+
+ </view>
+

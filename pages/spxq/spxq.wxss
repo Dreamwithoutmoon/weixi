@@ -1,0 +1,19 @@
+/* miniprogram/pages/spxq/spxq.wxss */
+.mtl{
+  margin-top: 5px
+}
+.spwz{
+  
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.sp{
+  padding-top: 10px
+}
+.jgg{
+  margin-top: 2px;
+ 
+}
+.van-card__header{
+  padding-top: 5px;
+}
